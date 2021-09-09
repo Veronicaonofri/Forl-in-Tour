@@ -176,7 +176,7 @@ input[type=submit]:hover {
 .testoornitologico{width: 40%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
 .h1ornitologico{width: 90%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
 
-@media (max-width:600px){
+@media (max-width:1024px){
 /*pagina comune*/
 .comuneimg{display: none;}
 .testocomune{width: 50%;font-size: 20px; margin-left: 1%; margin-top: 70px;}
