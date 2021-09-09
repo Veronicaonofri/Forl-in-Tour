@@ -63,7 +63,7 @@ li{font-family: 'Andika New Basic', sans-serif;}
 .socials li {margin: 0 6%;}
 .socials a {text-decoration: none; color: #fff;}
 .socials a i{ font-size: 30px;}
-.socials a:hover i{color: aqua;}
+.socials a:hover i{color: black;}
 
 
 .titolocontatti{position: relative;font-size: 20px;}
@@ -175,6 +175,73 @@ input[type=submit]:hover {
 .ornitologicoimg{position:absolute;width:30%; height: 70%; margin-top: 40px; margin-left:55%;}
 .testoornitologico{width: 40%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
 .h1ornitologico{width: 90%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
+
+@media (max-width:600px){
+/*pagina comune*/
+.comuneimg{display: none;}
+.testocomune{width: 50%;font-size: 20px; margin-left: 1%; margin-top: 70px;}
+.h1comune{width: 50%;font-size: 20px; margin-left: 0px; margin-top: 20px;}
+
+/*pagina podestà*/
+.podestaimg{display: none;}
+.testopodesta{width: 40%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
+.h1podesta{width: 80%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
+
+/*pagina san mecuriale*/
+.sanmercurialeimg{display: none;}
+.testosanmercuriale{width: 50%;font-size: 20px; margin-left: 50px;margin-top: 70px; }
+.h1sanmercuriale{width: 80%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
+
+/*pagina palazzo albertini*/
+.albertiniimg{display: none;}
+.testoalbertini{width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
+.h1albertini{width: 100%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
+
+/*pagina palazzo gaddi*/
+.gaddiimg{display: none;}
+.testogaddi{width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
+.h1gaddi{width: 100%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
+
+/*pagina duomo*/
+.duomoimg{display: none;}
+.testoduomo{width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
+.h1duomo{width: 90%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
+
+/*pagina san pellegrino*/
+.sanpellegrinoimg{display: none;}
+.testosanpellegrino{width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
+.h1sanpellegrino{width: 120%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
+
+/*pagina rocca*/
+.roccaimg{display: none;}
+.testorocca{width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
+.h1rocca{width: 120%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
+
+/*pagina san domenico*/
+.sandomenicoimg{display: none;}
+.testosandomenico{width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
+.h1sandomenico{width: 120%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
+
+/*pagina pinacoteca*/
+.pinacotecaimg{display: none;}
+.testopinacoteca{width: 40%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
+.h1pinacoteca{width: 70%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
+
+/*pagina palazzo romagnoli*/
+.romagnoliimg{display: none;}
+.testoromagnoli{width: 40%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
+.h1romagnoli{width: 90%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
+
+/*pagina museo teatro e museo rinascimento*/
+.teatroimg{display: none;}
+.testoteatro{width: 40%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
+.h1teatro{width: 90%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
+
+/*pagina museo ornitologico*/
+.ornitologicoimg{display: none;}
+.testoornitologico{width: 40%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
+.h1ornitologico{width: 90%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
+}
 
 
 * html .clearfix             { zoom: 1; } /* IE6 */
