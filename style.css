@@ -142,8 +142,8 @@ input[type=submit]:hover {
 .h1duomo{width: 90%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
 
 /*pagina san pellegrino*/
-.sanpellegrinoimg{position:absolute;width: 30%; height: 57%; margin-top: 40px; margin-left:55%;}
-.testosanpellegrino{width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
+.sanpellegrinoimg{position:relative;width: 30%; height: 57%; margin-top: 40px; left:75%;font-size: 20px;}
+.testosanpellegrino{position:relative;width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
 .h1sanpellegrino{width: 120%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
 
 /*pagina rocca*/
@@ -176,7 +176,7 @@ input[type=submit]:hover {
 .testoornitologico{width: 40%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
 .h1ornitologico{width: 90%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
 
-@media (max-width:1024px){
+@media (max-width:2500px){
 /*pagina comune*/
 .comuneimg{display: none;}
 .testocomune{width: 50%;font-size: 20px; margin-left: 1%; margin-top: 70px;}
