@@ -2,45 +2,50 @@
 <html lang="it">
 <head>
    <meta charset="UTF-8">
-   <title>Duomo</title>
+   <title>ForlìTour</title>
    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css ">
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
- </head>
- <body>
- <header class="header clearfix">
-		<a href="" class="logo"><img src="IMG/logonero.png" width= "125" height="50"><a/>
-		<a href="" class="icon-bar"></a>
-		<div class="menu">
-		<ul class="header__menu animate">
-			<li class="header__menu__item"><a href="index.html">HOME</a></li>
-			<li class="header__menu__item"><a href="Tour1.html">ITINERARI</a></li>
-			<li class="header__menu__item"><a href="Tour2.html">CONTATTI</a></li>
-			<li class="header__menu__item"><a href="documentazione.html">DOCUMENTAZIONE</a></li>
-		</ul>
-		</div>
-    </header>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SVX17VQYTF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-<div style="border: 0px solid#000">
-  <img class="duomoimg"src="IMG/duomo.webp">
-  <div class="testoduomo">
-<div class="h1duomo">
-<h1>Duomo e Madonna del fuoco:</h1>
-</div>
-<p>Venne costruito sui resti di una antica pieve nel 1425, poi demolito nel 1841 fu ricostruito nel medesimo anno in stile neoclassico.
-La facciata è caratterizzata da un grande timpano, sorretto da 6 colonne con capitelli corinzi.
-Il trecentesco campanile venne distrutto dai tedeschi nel 1944 e riedificato nel 1970.
-All’interno è possibile vedere la struttura a 3 navate separate da una stretta sequenza di colonne di ordine corinzio.
-Un grande affresco con l’invenzione e riconoscimento della Croce, dipinto da P.Randi nel 1875 occupa l’intera abside.
-Di incalcolabile valore è la xilografia della Madonna del fuoco all’interno della omonima cappella.
-L’opera scampata miracolosamente ad un incendio divampato in una scuola durante la notte del 4 febbraio del 1428 è divenuta la copatrona della città. 
-</p>
-  </div>
+  gtag('config', 'G-SVX17VQYTF');
+</script>
+</head>
+<body>
 
+  <header class="header clearfix">
+		<img src="IMG/logonero.png" class="logo" width= "125" height="50">
+			<ul class="header__menu animate">
+				<li class="header__menu__item"><a href="index.html">HOME</a></li>
+				<li class="header__menu__item"><a href="Tour1.html">ITINERARI</a></li>
+				<li class="header__menu__item"><a href="Tour2.html">CONTATTI</a></li>
+				<li class="header__menu__item"><a href="documentazione.html">DOCUMENTAZIONE</a></li>
+				</ul>
+  </header>
 
+  <section class="posizione clearfix"> 
+    <h1>Duomo e Madonna del fuoco:</h1>
 
+    <div class="imgpos">
+    	<img class="imgimg" src="IMG/duomo.jpeg" >
+    </div>
 
-</div>
+    <div class="imgtxt">
+      <p>Venne costruito sui resti di una antica pieve nel 1425, poi demolito nel 1841 fu ricostruito nel medesimo anno in stile neoclassico.
+      La facciata è caratterizzata da un grande timpano, sorretto da 6 colonne con capitelli corinzi.
+      Il trecentesco campanile venne distrutto dai tedeschi nel 1944 e riedificato nel 1970.
+      All’interno è possibile vedere la struttura a 3 navate separate da una stretta sequenza di colonne di ordine corinzio.
+      Un grande affresco con l’invenzione e riconoscimento della Croce, dipinto da P.Randi nel 1875 occupa l’intera abside.
+      Di incalcolabile valore è la xilografia della Madonna del fuoco all’interno della omonima cappella.
+      L’opera scampata miracolosamente ad un incendio divampato in una scuola durante la notte del 4 febbraio del 1428 è divenuta la copatrona della città. </p>
+    </div>
+  </section>  	
+	
   <footer class='footer'>
       <div class="footer_content">
          <h3>Veronica Onofri</h3>
@@ -52,5 +57,6 @@ L’opera scampata miracolosamente ad un incendio divampato in una scuola durant
          </ul>
       </div>  
    </footer>
+
  </body>
  </html>

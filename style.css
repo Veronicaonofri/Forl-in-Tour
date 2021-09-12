@@ -1,14 +1,15 @@
 html,body{height: 100%;}
 
-body{background-color: white;}
-.body{width: 100%;}
+body{background-color: white;display:flex;min-height:100vh;flex-direction:column;}
+.body{display:flex;min-height:100vh;flex-direction:column;}
 *{font-family: 'Andika New Basic', sans-serif;}
+
 
 .header{background: #E30613; height: 100px; width: 100%; }
 .logo{width:16%; height:60%;color:#fff; font-size: 30px; float:left; position: relative; left: 3%; top: 18px; display: block;}
 .header__menu{float: none; position: absolute; top: 30px; left: 50%; transform: translate(-50%,-49%);padding: 10px; }
 .header__menu__item{display: inline-block; }
-.header__menu__item a{color:#fff; display: block; padding: 13px;}
+.header__menu__item a{color:#fff; display: block; padding: 13px;text-decoration: none;}
 .header__menu__item a:hover{background: #000}
 
 
@@ -24,21 +25,22 @@ body{background-color: white;}
 
 .logohome{margin-top: 9%; margin-left: 20%; width: 60%;}
 
-.ImageBlock{width: 90%; margin-left: 5%;}
+.ImageBlock{width: 90%; margin-left: 5%;flex:1;}
 .image{width: 100%; height: 10%; margin-top: 10%;  }
 .image :hover{color:white;}
 
 	
 .menu{position: relative;width: 100%;}
 
-.itinerario{position:relative;}
-.itinerariscritta h1{padding-left: 5%;padding-right: 5%;font-size: 50px}
+.Itinerario{width: 90%; margin-left: 5%;flex:1;}
+.Itinerario h1{padding-left: 5%;padding-right: 5%;font-size: 50px;}
 .map_block{position: relative; width: 90%; margin-left: 5%;}
 .map_image{width: 100%;}
 .legenda{position: relative; font-size: 20px; margin-top: 1%;}
 .legenda p{padding-left: 5%;}
 
-.slogan{position: absolute;margin-top: 0px; left: 20%;width: 70%;font-size: 15px;}
+.slogan{position: absolute;margin-top: 0px; left: 20%;width: 70%; }
+.slogan h2{font-size: 15px;}
 
 
 .credits{position:relative ;
@@ -48,42 +50,24 @@ body{background-color: white;}
 
 
 
-
-
-
-
-.footer{background: #E30613; position:relative; height: auto; width: 100%; /*padding-top: -50px;*/ color: #fff; bottom: 0 0; margin-top: 2%}
-.footer_content {display: flex; align-items: left; justify-content: left; flex-direction: column; text-align: left;}
-.footer_content h3{padding-top: 0;padding-left: 5%;}
-.footer_content p{padding-top: 0;padding-left: 5%;}
-.socials { list-style: none; display: flex; margin: 10px 0 0 0; margin-left: -50px; margin-bottom:2%;}
-.socials ul {float: left; }
-.socials li {margin: 0 6%;}
-.socials a {text-decoration: none; color: #fff;}
-.socials a i{ font-size: 30px;}
-.socials a:hover i{color: black;}
-
-
-.titolocontatti{position: relative;font-size: 20px;}
-.titolocontatti h1{padding-left: 5%;padding-right: 5%;font-size: 50px}
-.infoscritte{position: relative;}
-.infoscritte h3{padding-left: 5%;padding-right: 5%;}
+.Info{width: 90%; margin-left: 5%;flex:1;}
+.Info h1{padding-left: 5%;padding-right: 5%;font-size: 50px;}
+.Info h3{padding-left: 5%;padding-right: 5%;font-size: 30px;}
 .contattiinfo{position: relative;font-size: 20px;}
 .contattiinfo h3{padding-left: 5%;padding-right: 5%;}
 .contattiinfo p{padding-left: 5%;padding-right: 5%;}
-
-.bloccoinfo{position: relative; }
+.bloccoinfo{position: relative; width: 90%;}
 form {
   font-family: 'Andika New Basic', sans-serif; 
 }
+
 label, input[type=text], textarea {
   display: block;
   box-sizing: border-box;
   width: 40%;
-  margin-left: 5%;margin-top: 15px;
-
-  
+  margin-left: 5%;margin-top: 15px;  
 }
+
 input[type=text], textarea {
   padding: 5px;
   border: 1px solid #CCC;
@@ -92,7 +76,6 @@ input[type=text], textarea {
   margin-top: 0px;
   margin-bottom: 10px;
   resize: vertical;
-
 }
 
 input[type=submit] {
@@ -109,87 +92,38 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-/*pagina comune*/
-.comuneimg{position:absolute; width: 40%; height: 60%; margin-top: 60px; margin-left:57%;}
-.testocomune{width: 50%;font-size: 20px; margin-left: 1%; margin-top: 70px;}
-.h1comune{width: 50%;font-size: 20px; margin-left: 0px; margin-top: 20px;}
 
-/*pagina podestà*/
-.podestaimg{position:absolute; width: 40%; height: 60%; margin-top: 40px; margin-left:54%;}
-.testopodesta{width: 40%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1podesta{width: 80%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina san mecuriale*/
-.sanmercurialeimg{position:absolute;width: 23%; height: 60%; margin-top: 40px; margin-left:60%;}
-.testosanmercuriale{width: 50%;font-size: 20px; margin-left: 50px;margin-top: 70px; }
-.h1sanmercuriale{width: 80%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina palazzo albertini*/
-.albertiniimg{position:absolute;width: 32%; height: 45%; margin-top: 40px; margin-left:50%;}
-.testoalbertini{width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1albertini{width: 100%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina palazzo gaddi*/
-.gaddiimg{position:absolute;width: 25%; height: 55%; margin-top: 40px; margin-left:55%;}
-.testogaddi{width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1gaddi{width: 100%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina duomo*/
-.duomoimg{position:absolute;width: 40%; height: 75%; margin-top: 40px; margin-left:52%;}
-.testoduomo{width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1duomo{width: 90%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina san pellegrino*/
-.sanpellegrinoimg{position:relative;width: 30%; height: 57%; margin-top: 40px; left:75%;font-size: 20px;}
-.testosanpellegrino{position:relative;width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1sanpellegrino{width: 120%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina rocca*/
-.roccaimg{position:absolute;width:40%; height: 51%; margin-top: 40px; margin-left:53%;}
-.testorocca{width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1rocca{width: 120%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina san domenico*/
-.sandomenicoimg{position:absolute;position:absolute;width:40%; height: 51%; margin-top: 40px; margin-left:53%;}
-.testosandomenico{width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1sandomenico{width: 120%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina pinacoteca*/
-.pinacotecaimg{position:absolute;position:absolute;width:40%; height: 51%; margin-top: 40px; margin-left:53%;}
-.testopinacoteca{width: 40%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1pinacoteca{width: 70%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina palazzo romagnoli*/
-.romagnoliimg{position:absolute;width:30%; height: 70%; margin-top: 40px; margin-left:55%;}
-.testoromagnoli{width: 40%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1romagnoli{width: 90%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina museo teatro e museo rinascimento*/
-.teatroimg{position:absolute;width:30%; height: 70%; margin-top: 40px; margin-left:55%;}
-.testoteatro{width: 40%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1teatro{width: 90%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina museo ornitologico*/
-.ornitologicoimg{position:absolute;width:30%; height: 70%; margin-top: 40px; margin-left:55%;}
-.testoornitologico{width: 40%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1ornitologico{width: 90%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
+.footer{background: #E30613;color: #fff;margin-top: 2%; position: relative; bottom: 0; width:100%;}
+.footer_content {display: flex; align-items: left; justify-content: left; flex-direction: column; text-align: left;}
+.footer_content h3{padding-top: 0;padding-left: 5%;}
+.footer_content p{padding-top: 0;padding-left: 5%;}
+.socials { list-style: none; display: flex; margin: 10px 0 0 0; margin-left: -50px; margin-bottom:2%;}
+.socials ul {float: left; }
+.socials li {margin: 0 6%;}
+.socials a {text-decoration: none; color: #fff;}
+.socials a i{ font-size: 30px;}
+.socials a:hover i{color: black;}
 
 /*Documentazione*/
-.titolodocu h1{padding-left: 5%;padding-right: 5%;font-size: 50px}
+.documentazione{width: 90%; margin-left: 5%;flex:1;}
+.documentazione h1{padding-left: 5%;padding-right: 5%;font-size: 50px;}
 
-.alberodoc{width: 60%; height: 60%; margin-left:20%;}
-.homedoc{width: 60%; height: 60%;margin-left: 20%;}
-.itineraridoc{width: 60%; height: 60%; margin-left: 20%;}
-.contattidoc{width: 60%; height: 60%; margin-left: 20%;}
+.bloccotesto{position:relative; width: 90%; margin-left: 5%; margin-top: 5%}
+.bloccotesto h2{color: #E30613;}
+.bloccotesto h4{padding-top: 1%; padding-bottom: 0}
+.bloccotesto p{text-align: justify; padding-top: 0}
 
-.abstract{position:relative; width: 50%; margin-left: 15%;}
-.abstract h2{color: #E30613;}
+.imgdc{width: 40%; height: 40%; margin-left:30%; margin-top: 5%}
 
-.projectmanagementplan{ width:50%; margin-left: 15%;}
-.projectmanagementplan h2{color: #E30613;}
 
-.strutturalayout{width: 50%; margin-left: 15%;}
-.strutturalayout h2{color:#E30613;}
+.posizione{width: 90%; margin-left: 5%;flex:1;}
+.posizione h1{padding-left: 5%;padding-right: 5%;font-size: 50px;}
+.imgpos{width: 30%; float: left; margin-left: 5%; margin-top: 2%}
+.imgimg{width: 100%;}
+.imgtxt {width: 50%; float: left; margin-left: 5%}
+.imgtxt p{text-align: justify; padding-top: 0%}
+
+
 
 .linguaggistrumenti{width: 50%; margin-left: 15%;}
 .linguaggistrumenti h2{color:#E30613;}
@@ -200,73 +134,6 @@ input[type=submit]:hover {
 .Valutazione {width: 50%; margin-left: 15%;}
 .Valutazione h2{color:#E30613;}
 
-
-@media (max-width:5000px){
-/*pagina comune*/
-.comuneimg{display: none;}
-.testocomune{width: 50%;font-size: 20px; margin-left: 1%; margin-top: 70px;}
-.h1comune{width: 50%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina podestà*/
-.podestaimg{display: none;}
-.testopodesta{width: 40%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1podesta{width: 80%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina san mecuriale*/
-.sanmercurialeimg{display: none;}
-.testosanmercuriale{width: 50%;font-size: 20px; margin-left: 50px;margin-top: 70px; }
-.h1sanmercuriale{width: 80%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina palazzo albertini*/
-.albertiniimg{display: none;}
-.testoalbertini{width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1albertini{width: 100%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina palazzo gaddi*/
-.gaddiimg{display: none;}
-.testogaddi{width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1gaddi{width: 100%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina duomo*/
-.duomoimg{display: none;}
-.testoduomo{width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1duomo{width: 90%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina san pellegrino*/
-.sanpellegrinoimg{display: none;}
-.testosanpellegrino{width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1sanpellegrino{width: 120%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina rocca*/
-.roccaimg{display: none;}
-.testorocca{width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1rocca{width: 120%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina san domenico*/
-.sandomenicoimg{display: none;}
-.testosandomenico{width: 35%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1sandomenico{width: 120%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina pinacoteca*/
-.pinacotecaimg{display: none;}
-.testopinacoteca{width: 40%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1pinacoteca{width: 70%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina palazzo romagnoli*/
-.romagnoliimg{display: none;}
-.testoromagnoli{width: 40%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1romagnoli{width: 90%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina museo teatro e museo rinascimento*/
-.teatroimg{display: none;}
-.testoteatro{width: 40%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1teatro{width: 90%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-
-/*pagina museo ornitologico*/
-.ornitologicoimg{display: none;}
-.testoornitologico{width: 40%;font-size: 20px; margin-left: 50px;margin-top: 70px;}
-.h1ornitologico{width: 90%;font-size: 20px; margin-left: 0px; margin-top: 40px;}
-}
 
 
 * html .clearfix             { zoom: 1; } /* IE6 */
