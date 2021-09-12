@@ -3,12 +3,7 @@ html,body{height: 100%;}
 body{background-color: white;display:flex;min-height:100vh;flex-direction:column;}
 .body{display:flex;min-height:100vh;flex-direction:column;}
 *{font-family: 'Andika New Basic', sans-serif;}
-h1{font-family: 'Andika New Basic', sans-serif;font-size: 60px}
-h2{font-family: 'Andika New Basic', sans-serif;font-size: 45px}
-h3{font-family: 'Andika New Basic', sans-serif;font-size: 37px}
-h4{font-family: 'Andika New Basic', sans-serif;font-size: 30px}
-p{font-family: 'Andika New Basic', sans-serif; font-size: 25px}
-li{font-family: 'Andika New Basic', sans-serif;}
+
 
 .header{background: #E30613; height: 100px; width: 100%; }
 .logo{width:16%; height:60%;color:#fff; font-size: 30px; float:left; position: relative; left: 3%; top: 18px; display: block;}
@@ -44,7 +39,8 @@ li{font-family: 'Andika New Basic', sans-serif;}
 .legenda{position: relative; font-size: 20px; margin-top: 1%;}
 .legenda p{padding-left: 5%;}
 
-.slogan{position: absolute;margin-top: 0px; left: 20%;width: 70%;font-size: 15px;}
+.slogan{position: absolute;margin-top: 0px; left: 20%;width: 70%; }
+.slogan h2{font-size: 15px;}
 
 
 .credits{position:relative ;
