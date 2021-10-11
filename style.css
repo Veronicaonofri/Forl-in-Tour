@@ -13,7 +13,7 @@ body{background-color: white;display:flex;min-height:100vh;flex-direction:column
   height: 0;}
 
 /*Header*/
-.header{background: #007FFF; height: 100px; width: 100%; position: fixed, top:0;}
+.header{background: #E30613; height: 100px; width: 100%; position: fixed, top:0;}
 .logo{width:16%; height:60%;color:#fff; font-size: 30px; float:left; position: relative; left: 3%; top: 18px; display: block;}
 .header__menu{float: none; position: absolute; top: 30px; left: 50%; transform: translate(-50%,-49%);padding: 10px; }
 .header__menu__item{display: inline-block; }
@@ -21,8 +21,8 @@ body{background-color: white;display:flex;min-height:100vh;flex-direction:column
 .header__menu__item a:hover{background: #000}
 
 /*Home*/
-.logohome{margin-top: 9%; margin-left: 20%; width:30%;}
-.ImageBlock{width: 60%; margin-left: 20%;flex:1;}
+.logohome{margin-top: 9%; margin-left: 20%; width: 60%;}
+.ImageBlock{width: 90%; margin-left: 5%;flex:1;}
 .image{width: 100%; height: 10%; margin-top: 10%;  }
 .slogan{position: absolute;margin-top: 0px; left: 20%;width: 70%; }
 .slogan h2{font-size: 15px;}
@@ -94,40 +94,16 @@ input[type=submit]:hover {
 .imgtxt p{text-align: justify; padding-top: 0%}
 
 /*Footer*/
-.footer{background: #007FFF;color: #fff;margin-top: 2%; position: relative; bottom: 0; width:100%;}
+.footer{background: #E30613;color: #fff;margin-top: 2%; position: relative; bottom: 0; width:100%;}
 .footer_content {display: flex; align-items: left; justify-content: left; flex-direction: column; text-align: left;}
-.footer_content h3{padding-top: 0;padding-left: 5%; font-size: 15px;}
-.footer_content p{padding-top: 0;padding-left: 5%; font-size: 15px;}
+.footer_content h2{padding-top: 0;padding-left: 5%;}
+.footer_content p{padding-top: 0;padding-left: 5%;}
 .socials { list-style: none; display: flex; margin-bottom:2%; margin-left: 1.4%}
 .socials ul {float: left;}
 .socials li {margin: 0 1%; }
 .socials a {text-decoration: none; color: #fff;}
 .socials a i{ font-size: 30px;}
 .socials a:hover i{color: black;}
-
-/*Storia*/
-.storia h1{font-size:50px;padding-left: 10%;}
-.storia p{font-size: 30px; padding-left: 10%; width: 80%;}
-
-/*Festa*/
-.festa h1{width:50%; font-size:50px; padding-left: 34%;}
-.festa h2{width:50%;font-size:35px; padding-left:28%;color:#ff0000;}
-.festatxt {width: 60%; padding-left: 23%; }
-.festa h3{font-size: 32px;}
-.festa p{font-size: 30px;}
-.festa {border-right: auto; border-left: auto;}
-.freccia{width: 20%; padding-left: 31%;}
-
-
-/*Teatro*/
-.h1teatro h1{font-size: 50px; margin-left: 10%;}
-.testoteatro p{font-size: 30px;margin-left: 10%; width:70%;}
-#imgmappa {width: 70%; height: 10%; margin-left: 15%; margin-right: 15%;}
-#info {font-size: 20px;}
-.info{color:#ff0000;}
-
-
-
 
 * html .clearfix             { zoom: 1; } /* IE6 */
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
